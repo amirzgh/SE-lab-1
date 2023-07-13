@@ -2,6 +2,9 @@ table {
     border: 1px solid black;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
 }
 
 input[type="button"] {
@@ -13,8 +16,12 @@ input[type="button"] {
     font-weight: bold;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
+:hover[type="button"]{
+    background-color: aqua;
+}
 input[type="text"] {
     padding: 20px 30px;
     font-size: 24px;
