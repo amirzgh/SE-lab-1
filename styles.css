@@ -11,12 +11,13 @@ input[type="button"] {
     width: 100%;
     padding: 20px 40px;
     background-color: green;
-    color: white;
+    color: black;
     font-size: 24px;
     font-weight: bold;
-    border: none;
-    border-radius: 5px;
+    border: dashed 3px black;
+    border-radius: 10px;
     cursor: pointer;
+
 }
 
 :hover[type="button"]{
